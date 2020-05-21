@@ -1,0 +1,4 @@
+net\serenity\bdd\pages\DictionaryPage.class
+net\serenity\bdd\features\search\package-info.class
+net\serenity\bdd\features\search\SearchByKeywordStory.class
+net\serenity\bdd\steps\serenity\EndUserSteps.class
