@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28620542-9499-4908-bf09-950a6792f4f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity-bdd/features/search/SearchByKeywordStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity-bdd/features/search/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity-bdd/pages/DictionaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity-bdd/steps/serenity/EndUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/13ccc3384b18e75f4d098e22a512da8abaa3b2df863f0664641493409465c839.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/13ccc3384b18e75f4d098e22a512da8abaa3b2df863f0664641493409465c839.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/13ccc3384b18e75f4d098e22a512da8abaa3b2df863f0664641493409465c839.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/13ccc3384b18e75f4d098e22a512da8abaa3b2df863f0664641493409465c839.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6529848443351855b53c7b19aaa174d60020f2b4d4e2acd49c500709b226c013.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e0145aa3346f1fb474ea50b489cdcf8a82b87dbdf073d7aded3a97445f30b038.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e0145aa3346f1fb474ea50b489cdcf8a82b87dbdf073d7aded3a97445f30b038.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e0145aa3346f1fb474ea50b489cdcf8a82b87dbdf073d7aded3a97445f30b038.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e0145aa3346f1fb474ea50b489cdcf8a82b87dbdf073d7aded3a97445f30b038.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/features/search/SearchByKeywordStory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/features/search/SearchByKeywordStory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/pages/DictionaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/pages/DictionaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/steps/serenity/EndUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/serenity/bdd/steps/serenity/EndUserSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="54">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -37,23 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -61,22 +64,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="235">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/package-info.java">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="162">
+              <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#3670#3671#0" expanded="true" />
+                <element signature="e#3694#3695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.7.1/selenium-api-3.7.1.jar!/org/openqa/selenium/WebElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/WebElementFacade.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/PageObject.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="610" column="22" selection-start-line="610" selection-start-column="22" selection-end-line="610" selection-end-column="22" />
+              <folding>
+                <element signature="e#23218#23219#0" expanded="true" />
+                <element signature="e#23283#23284#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +160,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>http</find>
+      <find>data</find>
+      <find>searchTerms</find>
+      <find>xpath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,10 +172,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/package-info.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java" />
       </list>
     </option>
@@ -139,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="975" />
     <option name="height" value="1050" />
@@ -150,7 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +260,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serenity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serenity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
               <item name="bdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,7 +287,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
               <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serenity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,6 +310,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
               <item name="bdd" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -208,14 +321,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
               <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Serenity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+              <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,24 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article">
-    <configuration name="C:/Users/andre/Documents/sem_6/VVSS2020/SerenityUiTesting/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SearchByKeywordStory.void_input_form_returns_error_message">
     <configuration name="SearchByKeywordStory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenity-junit-archetype" />
       <extension name="coverage">
@@ -275,22 +385,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchByKeywordStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityUiTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.serenity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.serenity-bdd.features.search" />
-      <option name="MAIN_CLASS_NAME" value="net.serenity.SearchByKeywordStory" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchByKeywordStory.link_opens_another_tab_correctly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenity-junit-archetype" />
       <extension name="coverage">
         <pattern>
@@ -300,7 +395,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="net.serenity.bdd.features.search" />
       <option name="MAIN_CLASS_NAME" value="net.serenity.bdd.features.search.SearchByKeywordStory" />
-      <option name="METHOD_NAME" value="searching_by_keyword_banana_should_display_the_corresponding_article" />
+      <option name="METHOD_NAME" value="link_opens_another_tab_correctly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchByKeywordStory.searching_by_keyword_morar_should_display_the_corresponding_article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity-junit-archetype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.serenity.bdd.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.serenity.bdd.features.search" />
+      <option name="MAIN_CLASS_NAME" value="net.serenity.bdd.features.search.SearchByKeywordStory" />
+      <option name="METHOD_NAME" value="searching_by_keyword_morar_should_display_the_corresponding_article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchByKeywordStory.valid_input_form_returns_no_error_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity-junit-archetype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.serenity.bdd.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.serenity.bdd.features.search" />
+      <option name="MAIN_CLASS_NAME" value="net.serenity.bdd.features.search.SearchByKeywordStory" />
+      <option name="METHOD_NAME" value="valid_input_form_returns_no_error_message" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity-junit-archetype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.serenity.bdd.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.serenity.bdd.features.search" />
+      <option name="MAIN_CLASS_NAME" value="net.serenity.bdd.features.search.SearchByKeywordStory" />
+      <option name="METHOD_NAME" value="void_input_form_returns_error_message" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,10 +451,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article" />
+        <item itemvalue="JUnit.SearchByKeywordStory.void_input_form_returns_error_message" />
+        <item itemvalue="JUnit.SearchByKeywordStory.valid_input_form_returns_no_error_message" />
         <item itemvalue="JUnit.SearchByKeywordStory (1)" />
-        <item itemvalue="Gradle.C:/Users/andre/Documents/sem_6/VVSS2020/SerenityUiTesting/build.gradle" />
-        <item itemvalue="JUnit.SearchByKeywordStory" />
+        <item itemvalue="JUnit.SearchByKeywordStory.link_opens_another_tab_correctly" />
+        <item itemvalue="JUnit.SearchByKeywordStory.searching_by_keyword_morar_should_display_the_corresponding_article" />
       </list>
     </recent_temporary>
   </component>
@@ -327,41 +471,60 @@
       <updated>1590081778170</updated>
       <workItem from="1590081784498" duration="766000" />
       <workItem from="1590083633575" duration="854000" />
+      <workItem from="1590085452907" duration="11372000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchByKeywordStory_(1) - 2020.05.21 at 21h 04m 48s.xml">
+    <history-entry file="SearchByKeywordStory_void_input_form_returns_error_message - 2020.05.22 at 00h 04m 23s.xml">
+      <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_void_input_form_returns_error_message - 2020.05.22 at 00h 05m 46s.xml">
+      <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_void_input_form_returns_error_message - 2020.05.22 at 00h 09m 36s.xml">
+      <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_void_input_form_returns_error_message - 2020.05.22 at 00h 19m 02s.xml">
+      <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_void_input_form_returns_error_message - 2020.05.22 at 00h 19m 39s.xml">
+      <configuration name="SearchByKeywordStory.void_input_form_returns_error_message" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_(1) - 2020.05.22 at 00h 23m 13s.xml">
       <configuration name="SearchByKeywordStory (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByKeywordStory_searching_by_keyword_banana_should_display_the_corresponding_article - 2020.05.21 at 21h 06m 51s.xml">
-      <configuration name="SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article" configurationId="JUnit" />
+    <history-entry file="SearchByKeywordStory_valid_input_form_returns_no_error_message - 2020.05.22 at 00h 25m 04s.xml">
+      <configuration name="SearchByKeywordStory.valid_input_form_returns_no_error_message" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByKeywordStory_searching_by_keyword_banana_should_display_the_corresponding_article - 2020.05.21 at 21h 08m 09s.xml">
-      <configuration name="SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article" configurationId="JUnit" />
+    <history-entry file="SearchByKeywordStory_link_opens_another_tab_correctly - 2020.05.22 at 00h 27m 59s.xml">
+      <configuration name="SearchByKeywordStory.link_opens_another_tab_correctly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchByKeywordStory_searching_by_keyword_banana_should_display_the_corresponding_article - 2020.05.21 at 21h 09m 21s.xml">
-      <configuration name="SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article" configurationId="JUnit" />
+    <history-entry file="SearchByKeywordStory_(1) - 2020.05.22 at 00h 31m 00s.xml">
+      <configuration name="SearchByKeywordStory (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchByKeywordStory_(1) - 2020.05.22 at 00h 33m 21s.xml">
+      <configuration name="SearchByKeywordStory (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1620000" />
+    <option name="totallyTimeSpent" value="12992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4312026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.461126" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -370,20 +533,21 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="12" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="SonarLint" order="12" weight="0.31233245" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20788912" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Codota" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,56 +558,176 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="find(By.tagName(&quot;p&quot;))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>find(By.tagName(&quot;p&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>linkElement.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>linkElement.getAttribute(&quot;style&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>linkElement.getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/package-info.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/PageObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="610" column="22" selection-start-line="610" selection-start-column="22" selection-end-line="610" selection-end-column="22" />
+          <folding>
+            <element signature="e#23218#23219#0" expanded="true" />
+            <element signature="e#23283#23284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="54">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/package-info.java">
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/serenitybdd/core/pages/WebElementFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.7.1/selenium-api-3.7.1.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/serenity/EndUserSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="235">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/pages/DictionaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#3670#3671#0" expanded="true" />
+            <element signature="e#3694#3695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/search/SearchByKeywordStory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -458,6 +742,17 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

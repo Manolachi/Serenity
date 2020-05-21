@@ -1,0 +1,222 @@
+<html><head>
+    <title>POCU:Inregistrare concurs pe teme profesionale </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8"> 
+
+
+
+    <script>
+        $(document).ready(function(){
+           $("#faculty").on('change',(function() {
+                $.get("PreRegister_utils.php", {facultyID : this.value },
+                    function(data,status) {
+                        $("#specialization").html(data);
+                    });
+            }));
+            $("#form-preregister").submit(function() {
+                var okSubmit = true;
+                $name=$("#name").val();
+                if ($("#name").val() == "") {
+                    $("#name").css("border", "1px solid red");
+                    $( "<p style='color:red'>Completati numele</p>" ).insertAfter( "#name" );
+                    okSubmit = false;
+                }
+                if ($("#name").val() != "" && /^[a-zA-Z -]+$/.test( $name)==false) {
+                    $("#name").css("border", "1px solid red");
+                    $( "<p style='color:red'>Campul trebuie sa contina numai litere</p>" ).insertAfter( "#name" );
+                    okSubmit = false;
+                }
+
+                $surname=$("#surname").val();
+                if($("#surname").val()=="" ){
+                    $("#surname").css("border","1px solid red");
+                    $( "<p style='color:red'>Completati prenumele</p>" ).insertAfter( "#surname" );
+                    okSubmit=false;
+                }
+
+                if($("#surname").val()!="" && (/^[a-zA-Z -]+$/.test( $surname)==false) ){
+                    $("#surname").css("border","1px solid red");
+                    $( "<p style='color:red'>Campul trebuie sa contina numai litere</p>" ).insertAfter( "#surname" );
+                    okSubmit=false;
+                }
+
+                if($("#pin").val()=="" ){
+                    $("#pin").css("border","1px solid red");
+                    $( "<p style='color:red'>Camp obligatoriu</p>" ).insertAfter( "#pin" );
+                    okSubmit=false;
+                }
+
+                if($("#phone").val()=="" || (/^(?:(?:(?:00\s?|\+)40\s?|0)(?:7\d{2}\s?\d{3}\s?\d{3}|(21|31)\d{1}\s?\d{3}\s?\d{3}|((2|3)[3-7]\d{1})\s?\d{3}\s?\d{3}|(8|9)0\d{1}\s?\d{3}\s?\d{3}))$/.test($("#phone").val())==false)){
+                    $("#phone").css("border","1px solid red");
+                    $( "<p style='color:red'>Completati numarul de telefon</p>" ).insertAfter( "#phone" );
+                    okSubmit=false;
+                }
+
+                if($("#phone").val()!="" && (/^(?:(?:(?:00\s?|\+)40\s?|0)(?:7\d{2}\s?\d{3}\s?\d{3}|(21|31)\d{1}\s?\d{3}\s?\d{3}|((2|3)[3-7]\d{1})\s?\d{3}\s?\d{3}|(8|9)0\d{1}\s?\d{3}\s?\d{3}))$/.test($("#phone").val())==false)){
+                    $("#phone").css("border","1px solid red");
+                    $( "<p style='color:red'>Campul trebuie sa contina un numar de telefon valid </p>" ).insertAfter( "#phone" );
+                    okSubmit=false;
+                }
+
+                if($("#email1").val()==""){
+                    $("#email1").css("border","1px solid red");
+                    $( "<p style='color:red'>Completati adresa de email</p>" ).insertAfter( "#email1" );
+                    okSubmit=false;
+                }
+
+                if($("#email1").val()!="" && (/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$./.test($("#email1").val())==true)){
+                    $("#email1").css("border","1px solid red");
+                    $( "<p style='color:red'>Completati cu o adresa de email valida </p>" ).insertAfter( "#email1" );
+                    okSubmit=false;
+                }
+                if($("#iban").val()==""&&/^[RO][0-9][0-9][a-zA-Z]{4}[0-9A-Z]{16}$/.test( $name)==false){
+                    $("#iban").css("border","1px solid red");
+                    $( "<p style='color:red'>Completati un IBAN valid</p>" ).insertAfter( "#iban" );
+                    okSubmit=false;
+                }
+                if ($('#copie_ci').val() == "") {
+                    $("#copie_ci").css("border", "1px solid red");
+                    $( "<p style='color:red'>Incarcati copia actului de identitate</p>" ).insertAfter( "#copie_ci" );
+                    okSubmit = false;
+                }
+				
+				 if ($('#copie_iban').val() == "") {
+                    $("#copie_iban").css("border", "1px solid red");
+                    $( "<p style='color:red'>Incarcati copia actului de la banca</p>" ).insertAfter( "#copie_iban" );
+                    okSubmit = false;
+                }
+				
+				
+				 if ($('#copie_carnet').val() == "") {
+                    $("#copie_carnet").css("border", "1px solid red");
+                    $( "<p style='color:red'>Incarcati copia carnetului</p>" ).insertAfter( "#copie_carnet" );
+                    okSubmit = false;
+                }
+
+                if ($('#agree').is(":checked")==false) {
+                    $("#agree_cont").css("border", "1px solid red");
+                    $( "<p style='color:red'>Trebuie sa va dati acordul de prelucrare a datelor</p>" ).insertAfter( "#agree_cont" );
+                    okSubmit = false;
+                }
+                return okSubmit;
+            })
+
+            $("#home").click(function(){
+                window.location.href = 'http://www.cs.ubbcluj.ro/POCU109172/index.html';
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+  <div class="header-pre">
+    <div id="logo"></div>
+    <div id="header-text-pre">
+        <h1>Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii a studenţilor prin stagii de practică de calitate </h1>
+    </div>
+    <p>POCU/90/6.13/6.14/109172</p>
+      <button id="home" class="btn"><i class="fa fa-home"></i> Home</button>
+</div>
+  <div class="header">
+  	<h2>Formular de inscriere la concursul pe teme profesionale</h2>
+     <!--   <h2> Inscrierile s-au incheiat! Va multumim!</h2>   -->
+  </div>
+
+  <!-- onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }  -->
+  <form id="form-preregister" method="post" enctype="multipart/form-data" action="PreRegister_back.php">
+
+      <div class="input-group">
+          <label>Nume*</label>
+          <input type="name" name="name" id="name" style="border: 1px solid red;"><p style="color:red">Completati numele</p>
+      </div>
+
+      <div class="input-group">
+          <label>Prenume*</label>
+          <input type="surname" name="surname" id="surname" style="border: 1px solid red;"><p style="color:red">Completati prenumele</p>
+      </div>
+
+      <div class="input-group">
+          <label>CNP*</label>
+          <input type="pin" name="pin" id="pin" style="border: 1px solid red;"><p style="color:red">Camp obligatoriu</p>
+      </div>
+      <div class="input-group">
+            <label>IBAN*</label>
+            <input type="text" name="iban" id="iban" style="border: 1px solid red;"><p style="color:red">Completati un IBAN valid</p>
+        </div>
+      <div class="input-group">
+          <label>Telefon*</label>
+          <input type="phone" name="phone" id="phone" style="border: 1px solid red;"><p style="color:red">Completati numarul de telefon</p>
+      </div>
+
+        <div class="input-group">
+            <label>Email*</label>
+            <input type="email" name="email1" id="email1" style="border: 1px solid red;"><p style="color:red">Completati adresa de email</p>
+        </div>
+     <!--   <div class="input-group">
+            <label>Email alternativ</label>
+            <input type="email" name="email2"/>
+        </div>-->
+       
+
+
+
+     <div class="input-group">
+          <label>Facultate</label>
+               <select id="faculty" name="faculty"><option value="">Selectati facultatea</option><option value="1">Matematica si Informatica</option><option value="2">Business</option><option value="3">FSEGA</option></select>
+      </div>
+
+      <div class="input-group">
+          <label>Specializarea</label>
+          <select id="specialization" name="specialization">
+             <option>Selectati specializarea</option>
+          </select>
+      </div>
+
+      <div class="input-group">
+          <label>Anul de studiu</label>
+      <select name="year" id="year">
+         <option value="2">Anul II</option>
+          <option value="3">Anul III</option>
+      </select>
+      </div>
+
+      <div class="input-group">
+          <label>Selectati fisierul cu copia actului de identitate</label>
+          <input type="file" name="copie_ci" id="copie_ci" style="border: 1px solid red;"><p style="color:red">Incarcati copia actului de identitate</p>
+      </div>
+	  
+	   <div class="input-group">
+          <label>Selectati fisierul cu copia actului de la banca</label>
+          <input type="file" name="copie_iban" id="copie_iban" style="border: 1px solid red;"><p style="color:red">Incarcati copia actului de la banca</p>
+      </div>
+	  
+	   <div class="input-group">
+          <label>Selectati fisierul cu copia carnetului de student</label>
+          <input type="file" name="copie_carnet" id="copie_carnet" style="border: 1px solid red;"><p style="color:red">Incarcati copia carnetului</p>
+      </div>
+
+      <div class="input-group">
+          <label>Declaratie de consimtamant</label>
+      <textarea readonly="" rows="5" cols="50" style="width:100%">Subsemnatul/subsemnata in calitate de student la programele de studiu organizate de Universitatea Babeş-Bolyai din Cluj-Napoca, consimt în mod expres şi neechivoc ca datele mele cu caracter persoanal să fie prelucrate prin orice mijloace, chiar şi prin transmiterea legală către terţi, în conformitate cu legislaţia europeană în vigoare - Regulamentul2016/679/UE, Directiva 2002/58/CE, de către instituţia publică de învăţământ superior şi de către orice alt organism abilitat să efectueze verificări sau să exercite control asupra activităţii acesteia.
+          Consimţământul exprimat liber şi neechivoc acoperă prelucrările legitime de date operate de Universitatea Babeş-Bolyai din Cluj-Napoca  în perioada studiilor. De asemenea, consimţământul exprimat acoperă inclusiv prelucrările legitime de date operate de Universitatea Babeş-Bolyai din Cluj-Napoca ulterior finalizării studiilor, în cazul în care acestea sunt impuse de prevederi legale, se realizează în interes public sau sunt destinate pentru activităţile normate ale autorităţilor şi instituţiilor publice.
+          Înţeleg în totalitate şi consimt asupra faptului că prelucrările de date operate de Universitatea Babeş-Bolyai din Cluj-Napoca se realizează în toate scopurile prevăzute de Legea nr. 1/2011 sau de legislaţia subsecventă acesteia, precum şi în scopurile care derivă din misiunea instituţiei de învăţămmânt superior sau sunt în strânsă legătură cu această misiune. De asemenea, înţeleg că pot exercita oricând şi nerestricţionat drepturile ce decurg din aplicarea articolelor 15-22 ale Regulamentului 2016/679/UE, asumând totodată eventualele urmări ale exercitării precizate.
+          Prezenta declaraţie acoperă prelucrarea oricăror date cu caracter personal, inclusiv acelea cu funcţie de identificare, biometrice şi cele referitoare la situaţia şcolară. Prezenta declaraţie acoperă de asemenea, pentru situaţiile caracterizate de beneficiul direct al declarantului, prelucrările referitoare la starea de sănătate,originea etnică şi confesiunea religioasă.
+      </textarea>
+      </div>
+
+    <div id="agree_cont" style="border: 1px solid red;">
+        <input type="checkbox" name="checkbox" value="checked" id="agree">
+        <span>Sunt de acord cu prelucrarea datelor cu caracter personal</span>
+    </div><p style="color:red">Trebuie sa va dati acordul de prelucrare a datelor</p>
+
+     <div class="input-group">
+  	  <button type="submit" class="btn" name="pre_reg_user">Inregistrare</button>
+  	</div>
+
+  </form> 
+
+
+</body></html>

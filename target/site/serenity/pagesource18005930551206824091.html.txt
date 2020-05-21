@@ -1,0 +1,603 @@
+<html lang="en"><head>
+    <title>POCU 109172</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <div class="page-layout">
+        <div class="header">
+            <div id="logo"></div>
+            <div id="header-text">
+                <h1>Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii a studenţilor prin stagii de practică de calitate </h1>
+            </div>
+            <p>POCU/90/6.13/6.14/109172</p>
+        </div>
+        <div class="page-content">
+            <section id="information">
+                <h3>INFORMATII</h3>
+                <div id="optiuni">
+                    <div id="proiect">Despre proiect</div>
+                    <div id="calendar">Calendar</div>
+                    <div id="activitati">Activitati</div>
+                    <div id="obiective">Obiective</div>
+                    <div id="media">Media</div>
+                    <!--<div id="parteneri">Parteneri</div>-->
+                    <div id="contact">Contact</div>
+                </div>
+            </section>
+            <section id="project-content">
+                <div id="about">
+<h3>Noutati POCU 109172</h3>
+<!--                    <h3>Start inscrierilor pentru competitia UBB HACKS FOR GOOD !</h3>
+<p>
+<div>S-a dat startul  etapei de inscrieri pentru concursul de tip hackathon pe
+care  echipa proiectului POCU 109172 il  va organiza in  anul 2020 si la
+care pot participa exclusiv studentii inscrisi in acest proiect (in anul
+universitar 2018-2019 si cei care vor fi selectati in anul universitar
+2019-2020). Concursul este dotat cu premii in bani:
+<ul>
+<li>premiul I - <strong> 25000 lei</strong></li>
+<li>premiul II -  <strong>15000 lei</strong></li>
+<li>premiul III - <strong> 10000 lei</strong></li>
+</ul> si este primul
+organizat de catre UBB intr-o asemenea formula.
+</div>
+<br>
+<div>
+Inscrierea se poate face la adresa: <a href="https://forms.gle/EQ7bTRmenZ8vG87M7">https://forms.gle/EQ7bTRmenZ8vG87M7</a>
+pana cel tarziu la data de 3 decembrie 2019.
+<br>
+Pentru a parcurge toti pasii
+din formularul de inscriere este necesara consultarea <a href="
+http://www.cs.ubbcluj.ro/POCU109172/Regulament%20concurs%20hackathon_FINAL.pdf">Regulamentului</a> concursului de tip hackathon.
+</div>
+<br>
+Regulamentul cuprinde detalii importante privind inscrierea si
+participarea ulterioara, prin urmare va rugam sa cititi cu atentie
+prevederile din document!
+<br><br>
+Va dorim succes,
+Echipa proiectului POCU 109172
+</p>-->
+                    
+                             
+                           
+<!--
+                          
+<h4>Beneficiar:<a href="http://www.ubbcluj.ro">Universitatea Babes-Bolyai, Cluj-Napoca</a></h4>
+                    <div class="logo-UBB"></div>
+                    <h4>Partener: <a href="https://ccicj.ro/">Camera de Comert si Industrie, Cluj-Napoca</a></h4>
+                    <div class="logo-CCI"></div>
+                          
+
+                    <h2>Proiect cofinantat din FONDUL SOCIAL EUROPEAN  prin Programul Operational Capital Uman 2014-2020</h2> <br/></h4>
+                    <p>
+                        <strong>Axa prioritară 6 </strong>Educatie si competente <br><br />
+                        <strong>Obiectiv specific </strong> 6.13 Cresterea numarului absolventilor de invatamant tertiar universitar si nonuniversitar care isi gasesc un loc de munca urmare a accesului la activitati de invatare la un potential loc de munca / cercetare/ inovare, cu accent pe sectoarele economice cu potential competitiv identificate conform SNC si domeniile de specializare inteligenta conform SNCDI.</br><br />
+                        <strong>Valoare </strong>2.203.658,79 RON</br>
+                    </p>
+					<!--<div class="display-flex">
+						<img class="imagine-lansare1" src="css/images/Lansare.png" alt="Anunt conferinta lansare">
+
+						<img class="imagine-lansare2" src="css/images/Agenda.png" alt="Agenda conferintei de lansare">
+					</div>-->
+
+ <!--                   <p>
+                        Multumim tuturor studentilor care s-au aratat interesati sa participe in cadrul proiectului!
+			Criteriile folosite pentru selectia grupului tinta sunt:
+						<ul>
+						  <li><strong> Criterii de eligibilitate:</strong></li>
+						       <ul>
+							      <li> Studenti inmatriculati in anul II de studiu la:
+								           <ul>
+                     <li>   Facultatea de Matematica si Informatica, specializarile:
+                    <ul>
+                        <li><strong>Informatică </strong>- lb. română, lb. engleză, lb. germană și  lb. maghiară
+                        <li><strong>Matematică-Informatică</strong> - lb. română, lb. engleză și  lb. maghiară
+                    </ul>
+                    <br>
+
+                    <li>Facultatea de Stiinte Economice si Gestiunea Afacerilor, specializarile:
+                    <ul>
+                        <li><strong>Contabilitate si informatica de gestiune</strong> - lb. română și lb. engleză
+                        <li><strong>Informatica economica</strong> - lb. română și  lb. maghiară
+                       <!-- <li><strong>Finanțe și Bănci</strong> - lb. română, lb. engleză și  lb. maghiară
+                        <li><strong>Management</strong> - lb. română, lb. engleză și  lb. maghiară-->
+                    
+<!--
+					<li>Facultatea de Business, specializarile:
+                    <ul>
+                        <li><strong>Administrarea Afacerilor </strong>- lb. română și  lb. engleză
+                        <li><strong>Administrarea Afacerilor în Servicii de Ospitalitate </strong>- lb. română și lb. engleză
+                    </ul>
+					</ul>
+						<li>Domiciliul stabil într-una dintre regiunile mai puțin dezvoltate ale României:</li>
+						<table>
+						   <tr>
+						      <th> Regiunea</th><th>Judetul</th></tr>
+							  <tr>
+							   <td>Nord-Vest</td><td>Bihor, Bistrița-Năsăud, Cluj, Maramureș, Satu-Mare, Sălaj</td>
+							  </tr>
+							  <tr>
+							    <td>Nord-Est</td><td>Bacău, Botoșani, Iași, Neamț, Suceava, Vaslui</td>
+							  </tr>
+							  <tr>
+							   <td>Centru</td><td>Alba, Brașov, Covasna, Harghita, Mureș, Sibiu</td>
+							  </tr>
+							  <tr>
+							  <td>Vest</td><td>Arad, Caraș-Severin, Hunedoara, Timiș</td>
+							  </tr>
+							  <tr>
+							  <td>Sud-Est</td><td>Brăila, Buzău, Constanța, Galați, Tulcea , Vrancea</td>
+							  </tr>
+							  <tr>
+							  <td>Sud Muntenia</td><td>Argeș, Călărași, Dâmbovița, Giurgiu, Ialomița, Prahova, Teleorman</td>
+							  </tr>
+							  <tr>
+							    <td>Sud-Vest Oltenia</td>
+								<td>Dolj, Gorj, Mehedinți, Olt, Vâlcea</td>
+							  </tr>
+							  
+							  
+						</table>
+
+
+</li>		  
+							   </ul>
+						  
+						<!--  <li><strong> Ierarhizare:</strong></li>
+						  <ul>
+						  <li> Ierarhizarea candidaților se va face în ordinea descrescătoare a mediilor generale obținute în anul I de studiu, în conformitate cu Art. 22 din Regulamentul privind activitatea profesională a studenților din Universitatea Babeș-Bolyai.</li>
+						  <li><strong>Criterii de departajare</strong>
+În cazul în care pe ultimul loc eligibil se află doi sau mai mulți candidați cu medii egale, se va lua în considerare media obținută în semestrul II al anului I. Dacă egalitatea persistă se va considera media obținută în semestrul I al anului I și dacă și în acest caz există egalitate se va lua în considerare media obținută la admitere (*).
+</li>
+
+						  </ul>
+						</ul>-->
+                    
+<!--Locurile disponibile vor fi atribuite studentilor din anul II, in ordine descrescatoare dupa media generala din anul I de facultate,  astfel:
+                    <ul>
+                        <li>21 de locuri Facultatea de Matematica si Informatica
+                        <li>16 de locuri Facultatea de Stiinte Economice si Gestiunea Afacerilor
+                        <li>12 de locuri Facultatea de Business.
+                    </ul>
+					<br>
+					Nota*:Situatiile exceptionale vor fi rezolvate punctual. 
+                    <br><br>    
+ Rezultatele procesului de selectie vor fi afisate pe
+                    <a href=" https://www.cs.ubbcluj.ro/POCU109172/registration/Rezultate.html">site-ul proiectului</a>  si pe site-urile  facultatilor implicate in aceste proiect, folosind numarul matricol.
+                    Studentii care s-au preinscris vor fi notificati si prin email.
+
+                   <br><br>
+                    <strong> CALENDAR DE DERULARE A PROCESULUI DE SELECTIE:</strong><br>
+                    <ul>
+                    <li>14.11.2019 – 20.11.2019 –  preinscriere<br>
+                    <li>20.11.2019 – 21.11.2019 – evaluare dosarelor si selectie<br>
+                    <li>22.11.2019 – afisarea rezultatelor  selectiei<br>
+                    <li>25.11.2019 - depunerea contestatiilor prin email la adresa <a href="inscrieri.pocu109172@cs.ubbcluj.ro">inscrieri.pocu109172 [at] cs.ubbcluj.ro</a> in intervalul orar 10:00-18:00 <br>
+					<li>26.11.2019 - afisarea rezultatelor finale
+					<li>27.11.2019 – 28.11.2019 – completarea dosarului cu actele necesare inscrierii<br>
+                    </ul>
+                    
+                    Dupa  afisarea rezultatelor finale ale selectiei, studentii vor depune  dosarele de inscriere, in perioada 27-28 noiembrie 2019, la urmatoarele locatii:
+<ul>
+
+ <li>Facultatea de Business, persoana de contact: Dragos Paun</li>
+<ul> 
+ <li>27 Noiembrie 2019, Sala 9, intre orele 8-10 </li>
+ <li>28 noiembrie 2019,  sala 9, intre orele 8-12</li>
+ </ul>
+<br>
+<li>Facultatea de Matematica si Informatica, persoana de contact: Teodora Catinas</li>
+<ul> 
+   <li> 27 noiembrie 2019, sala 122 (Cladirea Centrala), intre 12-14 </li>
+   <li> 28 noiembrie 2019,  sala 205, Cladirea Mathematica, intre 15:30-17:30</li>
+</ul>
+<br>
+<li> Facultatea de Stiinte Economice si Gestiunea Afacerilor, persoane de contact: Victor Muller, Vasile Cardos</li> 
+<ul> 
+   <li> 27 noiembrie 2019, sala 226, intre 14-16</li>
+   <li> 28 noiembrie 2019,  sala 226, intre 13-15 </li>
+</ul>
+
+</ul>-->
+<!--
+
+
+
+
+                    <br><br>
+                    <strong>ACTE NECESARE PENTRU INSCRIEREA IN GRUPUL TINTA:</strong>
+					<ul>
+					  <li>Formular de inscriere in grupul tinta (se completeaza pe loc)
+					  <li>Copie dupa CI
+					  <li>Adeverinta de student (pentru studentii Facultatii de Business)
+					  <li>Acordul pentru folosirea datelor personale in cadrul proiectului (se completeaza pe loc) 
+					</ul>
+					
+					
+                    
+                    
+
+                    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br>
+                    Pentru mai multe detalii ne puteţi contacta la  adresele de mail
+                    <a href="contact.pocu109172@cs.ubbcluj.ro">contact.pocu109172 [at] cs.ubbcluj.ro</a>
+                    si <a href="inscrieri.pocu109172@cs.ubbcluj.ro">inscrieri.pocu109172 [at] cs.ubbcluj.ro</a>
+
+-->
+
+<p>
+
+Urmatoarele activitati din proiectul de practica POCU 109172 sunt:
+</p><ol>
+
+<li><strong>Servicii de consiliere profesionala (perioada decembrie 2019 - iunie 2020)</strong>
+   <p> Sunt realizate la sediul Camerei de Comert si Industrie Cluj si sunt esalonate in 3 etape. In prima etapa, desfasurata in perioada  ianuarie - mai 2020, veti fi informati asupra modului de concepere a unui CV, a unei scrisori de intentie si a modului in care decurge un interviu. Programarile pentru fiecare facultate in parte se vor anunta in timp util de catre expertii coordonatori din cadrul fiecarei facultati.
+
+</p></li><li><strong>Intalniri in vederea Instruirii de securitatea  muncii si situatii de urgenta </strong>, obligatorie incepand cu anul universitar 2018-2019, organizate la inceputul semestrului II (detaliile intalnirilor vor fi anuntate ulterior pe site-ul proiectului).
+<br><br>
+</li><li><strong>Alegerea organizatiei la care veti desfasura stagiul de practica (decembrie 2019-februarie 2020) </strong>
+  <p>Pe site-ul proiectului gasiti <a href="companies/ListaFirme.html">lista  organizatiilor </a> care au acceptat sa organizeze stagii de practica pentru studentii din grupul tinta. Aceasta lista se va actualiza pe masura ce noi organizatii vor accepta participarea in cadrul proiectului. Studentii selectati in grupul tinta POT desfasura stagiul de practica SI LA ALTE organizatii care respecta criteriile de eligibilitate ale Universitatii cu conditia ca stagiul de practica sa se desfasoare intr-o localitate din judetul CLUJ. Studentii care opteaza pentru aceasta posibilitate vor contacta responsabilii de practica din cadrul proiectului corespunzator fiecarei facultati pentru verificarea eligibilitatii.
+
+</p></li><li><strong>Desfasurarea stagiului de practica (perioada de desfasurare este specifica fiecarei facultati)</strong>
+<p>Dupa acceptul din partea unei organizatii, membrii grupului tinta vor aduce documentele justificative care vor fi specificate si anuntate pe site-ul proiectului.
+
+
+</p></li><li><strong>Concursurile pe teme profesionale si de tip hackaton (perioada aprilie - iunie 2020)</strong>
+<p>membrii grupului tinta care se vor inscrie si vor participa la aceste concursuri au sansa de a castiga premii consistente, dupa cum urmeaza:
+  Concursul pe teme profesionale: maxim 200 studenti premiati (20 x Premiul I: 2000 RON, 40 x Premiul II: 1700 RON, 60 x Premiul III: 1400 RON, 80 x Mentiuni: 1100 RON)
+  Concursul de tip hackaton: 3 echipe premiate (Premiul I: 25000 RON/echipa, Premiul II: 15000 RON/echipa, Premiul III: 10000 RON/echipa)      
+</p></li></ol>
+    
+Pentru fiecare etapa descrisa anterior veti primi notificari continand informatii exacte asupra datelor si locatiei de desfasurare.
+
+<!--Va dorim succes in sesiune si revenim dupa vacanta cu noutati!-->
+<p></p>
+
+                </div>                 
+              <div id="calendar-content">
+                    <h2>Calendar</h2>					
+					<p></p><h3>INVITAȚIE</h3><br>
+<h3>Conferința de lansare a proiectului
+Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii a studenţilor prin stagii de practică de calitate, ID 109172</h3><br>
+Avem deosebita plăcere de a vă invita să participați la conferința de lansare a proiectului Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii a studenţilor prin stagii de practica de calitate, ID 109172 implementat de către Universitatea „Babeș-Bolyai” din Cluj-Napoca, în parteneriat cu Camera de Comerț și Industrie Cluj.
+
+Evenimentul va avea loc <strong> marți, 13 noiembrie 2018, ora 14.00, în Aula Facultății de Științe Economice și Gestiunea Afacerilor </strong> din cadrul Universității „Babeș-Bolyai” din Cluj-Napoca, str. Teodor Mihali nr. 58-60, Cluj-Napoca.
+
+Proiectul are ca obiectiv general îmbunătățirea competențelor și aptitudinilor profesionale ale studenților care se regăsesc la nivelul educațional de studii de licență, în vederea creșterii capacității acestora de a se încadra cu succes, și în mod sustenabil, pe piața muncii. Astfel, competențele dobândite în timpul studiilor vor fi perfecționate prin aprofundarea lor în cadrul unor stagii de practică aplicată derulate în societăți comerciale din domeniile de activitate asociate studiilor.
+
+Grupul țintă vizat este reprezentat de 340 de studenți din cadrul Facultății de Matematică și Informatică, a Facultății de Științe Economice și Gestiunea Afacerilor și a Facultății de Business.<br>
+<br><br>
+Vă aṣteptăm!<br>
+<em>Conf. univ. dr. Grigoreta COJOCAR,</em><br>
+Manager proiect
+					<p></p>
+<img src="css/images/Lansare.png">
+                </div>
+                <div id="activitati-content">
+                    <h2>Activitati</h2>
+                    <table>
+                        <tbody><tr>
+                            <th>Denumire</th>
+                            <th>Perioada</th>
+
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Masuri specifice de informare si publicitate.
+                            </td>
+                            <td>
+                                18 Iulie 2018 - 17 Iulie 2020
+
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                 Derularea conferintei de lansare a proiectului.
+                            </td>
+                            <td>Noiembrie 2018</td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                Derularea conferintei de finalizare a proiectului.
+                            </td>
+                            <td>
+                                18 Iunie 2020 - 17 Iulie 2020
+                            </td>
+
+                        </tr>
+                        
+
+                        <tr>
+                            <td>
+                                Campanie de informare si promovare a activitatilor proiectului
+
+                            </td>
+                            <td>
+                                18 Septembrie 2018 - 17 Aprilie 2019
+
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                Servicii de informare si consiliere profesionala
+                            </td>
+                            <td>
+                                18 Octombrie 2018 - 17 Iulie 2020
+                            </td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td>
+                                Campanie informare, selectie a organizatiilor partenere de practica si elaborarea parteneriatelor de practica
+                            </td>
+                            <td>
+                                18 Septembrie 2018 - 17 Mai 2020
+                            </td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td>
+                                Organizarea grupului tinta si alocarea stagiilor de practica.
+
+                            </td>
+                            <td>
+                                18 Septembrie 2018 - 17 Mai 2020
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Organizarea si derularea programelor de învatare la locul de munca
+                            </td>
+                            <td>
+                                18 Ianuarie 2019 - 17 Mai 2020
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Monitorizarea si evaluarea implementarii stagiilor de practica si a impactului obtinut.
+                            </td>
+                            <td>
+                                18 Ianuarie 2019 - 17 Mai 2020
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Monitorizarea si evaluarea implementarii stagiilor de practica si a impactului obtinut.
+                            </td>
+                            <td>
+                                18 Ianuarie 2019 - 17 Mai 2020
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                               Derulare concurs pe teme profesionale
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                 Derulare concurs profesional de tip hackaton
+                            </td>
+                            <td>
+                                18 Martie 2020 - 17 Mai 2020
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Ateliere de lucru pentru constructia unei platforme dialog intre mediul academic si cel socio-economic in vederea imbunatatirii ofertei educationale
+                            </td>
+                            <td>
+                                18 Aprilie 2019 - 17 Martie 2020
+
+                            </td>
+                        </tr>
+
+                    </tbody></table>
+
+
+                </div>
+                <div id="obiective-content">
+                    <h2>Obiective</h2>
+                    <p>
+                        <strong>Obiectivul general</strong> al prezentului proiect consta in imbunatatirea competentelor si aptitudinilor profesionale ale studentilor, care se
+                        regasesc la nivelul educational de studii de licenta, din domeniul IT si economic, in vederea cresterii capacitatii acestora de a se incadra
+                        cu succes si in mod sustenabil pe piata muncii.
+                    </p>
+                    <p>
+                        <strong>Obiectivele specifice </strong> ale proiectului:
+                        </p><ol>
+                            <li>
+                                Organizarea de sesiuni de orientare profesionala pentru 340 de studenti prin furnizarea de servicii de informare si consiliere
+                                profesionala in vederea asigurarii competentelor personale necesare insertiei pe piata muncii. Aceste activitati vizeaza
+                                identificarea sau descoperirea competentelor profesionale ale studentilor si a nevoilor de perfectionare pe care acestia le
+                                identifica raportat la cerintele pietei.
+                                <!--Astfel, studentii vor putea sa isi creasca nivelul de competenta pe durata stagiilor de practica
+                                prin axarea pe dezvoltarea profesionala oferind in acelasi timp valoare in cadrul entitatii economice in cadrul careia isi desfasoara
+                                activitatea. Activitatile de informare si consiliere profesionala vor contribui in mod nemijlocit la imbunatatirea cunostintelor si
+                                competentelor personale ale grupului tinta necesare accederii cu succes pe piata muncii.-->
+                            </li>
+                            <br>
+                            <li>
+                                Sprijinirea initiativelor de parteneriat dintre universitate si entitatile economice prin asocierea organizatorului de practica cu
+                                parteneri importanti din sectorul IT precum si cu alte organizatii din domenii economice relevante pentru grupul tinta. Activitatile
+                                destinate incheierii de parteneriate intre sustinatorii de programe didactice si solicitantii de forta de munca vor creste gradul de
+                                corelare intre oferta specifica educationala si nevoile practice ale angajatorilor prin adaptarea ofertelor de studii si a curriculelor
+                                acestora in vederea dezvoltarii de competente destinate grupului tinta.
+                                <!--Parteneriatele stabilite vor asigura cadrul prin care se va
+                                putea realiza o mai buna corelare intre oferta educationala si nevoia existenta in cadrul angajatorilor in asa fel incat cunostintele
+                                dobandite sa poata fi usor transformate in competente practice, aplicabile in mod functional in mediul socio-economic. Angajatorii
+                                majoritari ce vor fi selectati pentru gazduirea stagiilor de practica reprezinta unul din principalele motoare economice ale regiunii
+                                de derulare a proiectului, iar o relatie de lunga durata cu organizatorul stagiilor de pratica va asigura ocuparea unui loc de munca
+                                de catre absolventi, crescandu-se astfel relevanta pregatirii oferite.-->
+                            </li>
+                            <br>
+                            <li>
+                                Organizarea de programe de invatare la locul de munca pentru 340 de studenti din domeniile de studiu: informatica, informatica
+                                economica, statistica, marketing, afaceri internationale, economie generala si contabilitate prin asigurarea de stagii de practica
+                                aplicata specific programului de studiu in entitati economice din domeniul economic şi IT.
+                                <!-- Derularea de programe aplicate de
+                                practica in cadrul unor firme functionale va creste nivelul de adaptabilitate si competitivitate al grupului tinta prin corelarea
+                                cunostintelor teoretice dobandite in timpul procesului de invatare cu metodologiile practice de lucru din cadrul unor firme, va
+                                permite participantilor adaptarea la cerintele culturii organizationale interne si sporirea nivelului de competitivitate individuala in
+                                vederea angajarii pe piata muncii in domenii de activitate cu potential de crestere in viitorul imediat dar si pe termen lung.-->
+                            </li>
+                        </ol>
+                    <p></p>
+                </div>
+                <div id="media-content">
+                    <h2>Media</h2>
+					<a href="https://news.ubbcluj.ro/practica-de-calitate-pentru-studentii-ubb/">Practica de calitate pentru studentii UBB</a><br><br>
+					<a href="https://www.upnews.ro/2018/09/25/bani-europeni-pentru-practica-a-340-de-studenti-de-la-ubb/">Bani europeni pentru practica a 340 de studenti de la UBB</a><br><br>
+					<a href="http://fondurieuropene.centre.ubbcluj.ro/15777-2/">POCU 90/6.13/6.14/109172</a><br>
+					
+                </div>
+                <!--<div id="parteneri-content">
+                    <h2>Parteneri</h2>
+                </div>-->
+                <div id="contact-content">
+                    <h2>Contact</h2>
+					<p>
+					<strong>conf. dr. Grigoreta Cojocar</strong><br><br>
+					Manager de proiect<br><br>
+					email: <a href="mailto:grigo@cs.ubbcluj.ro">grigo [at] cs.ubbcluj.ro</a>
+<br>
+					</p>
+					<p></p>
+                </div>
+            </section>
+            <section id="news">
+                <h3>NOUTATI</h3>
+			<div class="noutate">
+				 <div class="data">
+                            13  Mai 2020
+                        </div>
+
+                        <div class="flex-row">
+                        <a target="_blank" href="contest/PreRegister.php">Formular de inscriere la concursul pe teme profesionale</a>
+                        </div>
+                    </div>
+                  <div class="noutate">
+                  <div class="data">
+                            12  Mai 2020
+                        </div>
+
+                        <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">-->
+                            <a target="_blank" href="RegulamentConcursTemeP.pdf">Regulamentul concursului pe teme profesionale</a>
+                        </div>
+                    </div>
+                  <div class="noutate">
+                  <div class="data">
+                            2 Decembrie, 2019
+                        </div>
+
+                        <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">-->
+                            <a target="_blank" href="companies/ListaFirme.html">Lista firmelor care ofera pozitii pentru stagii de practica</a>
+                        </div>
+                    </div>
+
+                <div class="noutate">
+                  <div class="data">
+                            26 Noiembrie, 2019
+                        </div>
+
+                        <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">-->
+                            <a target="_blank" href="registration/Rezultate.html">Rezultatele finale ale selectiei grupului tinta 2019</a>
+                        </div>
+                    </div>
+                <div class="content">
+				<!--<div class="noutate">
+                       <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">
+                            <a target="_blank" href="companies/ListaFirme.html">Lista organizatiilor care ofera stagii de practica</a>
+                        </div>
+						
+                    </div>-->
+                  
+                   <div class="noutate">
+                   <div class="data">
+                            20 Noiembrie, 2019
+                        </div>
+
+                        <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">-->
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSertETe1BkqArM42CjEdsOJpmbdFb5AXDy7NH_BiBvQb0GOWw/viewform"><strong>Inscrieri hackathon UBB HACKS FOR GOOD</strong></a>
+                        </div>	
+
+		   <div class="noutate">
+                   <div class="data">
+                            Noiembrie, 2019
+                        </div>
+
+                        <div class="flex-row">
+                           <!-- <img src="css/images/Form.png" height="60" width="60">-->
+                            <a target="_blank" href="Regulament concurs hackathon_FINAL.pdf"><strong>Regulamentul concursului UBB HACKS FOR GOOD</strong></a>
+                        </div>	
+
+                 <!--  <div class="noutate">
+                        <div class="flex-row">
+                            <img src="css/images/Form.png" height="60" width="60">
+                            <a target="_blank" href="registration/PreRegister.php">Inregistrare studenti pentru selectia in grupul tinta 2019</a>
+                        </div> -->
+
+		     
+
+                    <div class="noutate">
+                        <div class="flex-row">
+                           <img src="css/images/Lansare.png" height="60" width="60">
+                            <span>Conferinta de lansare a proiectului 13 Noiembrie, 2018, ora 14:00</span>
+                        </div>
+                    </div>
+                    <div class="noutate ">
+                        <div class="flex-row">
+                            <a href="https://www.facebook.com/Pocu_109172-2250914971810092/" class="fa fa-facebook"></a>
+                            <span>Pagina de facebook a proiectului a devenit activa!</span>
+                        </div>
+                    </div>
+                    <div class="noutate">
+                        <div class="data">
+                            Octombrie, 2018
+                        </div>
+                        <div>
+                            Derularea activitatilor de realizare a proiectului.
+                        </div>
+                    </div>
+                    <div class="noutate">
+                        <div class="data">
+                            18 Iulie 2018
+                        </div>
+                        <div>
+                            Start proiect...
+                        </div>
+                    </div>
+                    <div class="ue-anunt">
+                        <div class="anunt">Conţinutul acestui material nu reprezintă în mod obligatoriu poziţia oficială a Uniunii Europene sau a Guvernului României</div>
+                        <div class="anunt">Pentru informații detaliate despre celelate programe cofinanțate de Uniunea Europeană, vă invităm să vizitați <a href="www.fonduri-ue.ro">www.fonduri-ue.ro</a></div>
+                    </div>
+                </div>
+            </div></div></section>
+        </div>
+    </div>
+
+
+</body></html>

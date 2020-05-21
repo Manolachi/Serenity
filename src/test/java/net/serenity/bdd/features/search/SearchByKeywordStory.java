@@ -3,7 +3,6 @@ package net.serenity.bdd.features.search;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 
 import org.junit.Test;
@@ -12,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 
 import net.serenity.bdd.steps.serenity.EndUserSteps;
 
+import java.util.ArrayList;
+
 @RunWith(SerenityRunner.class)
 public class SearchByKeywordStory {
 
@@ -19,25 +20,72 @@ public class SearchByKeywordStory {
     public WebDriver webdriver;
 
     @Steps
-    public EndUserSteps anna;
+    public EndUserSteps ubbcluj;
 
     @Issue("#WIKI-1")
     @Test
-    public void searching_by_keyword_apple_should_display_the_corresponding_article() {
-        anna.is_the_home_page();
-        anna.looks_for("apple");
-        anna.should_see_definition("A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.");
-
+    public void curent_year_structure_contains_correct_date() {
+        ubbcluj.is_the_home_page();
+        ubbcluj.looks_for("structura\n");
+        ubbcluj.presses_on("Structura anului universitar 2019-2020");
+        ubbcluj.should_see_text("sesiune de examene", "20.01.2020 – 09.02.2020");
     }
 
     @Test
-    public void searching_by_keyword_banana_should_display_the_corresponding_article() {
-        anna.is_the_home_page();
-        //anna.looks_for("pear");
-        //anna.should_see_definition("An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.");
+    public void searching_by_keyword_orar_should_display_the_corresponding_article() {
+        ubbcluj.is_the_home_page();
+        ubbcluj.looks_for("Orar semestrul II\n");
+        ubbcluj.should_see_link("Orar semestrul II, an universitar 2019-2020");
     }
 
-    @Pending @Test
-    public void searching_by_ambiguious_keyword_should_display_the_disambiguation_page() {
+    @Test
+    public void void_input_form_returns_error_message() {
+        ubbcluj.is_the_home_page();
+        ubbcluj.presses_on("Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii prin stagii de practică de calitate");
+
+        ArrayList<String> tabs1 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs1.get(1));
+
+        ubbcluj.presses_on("Formular de inscriere la concursul pe teme profesionale");
+
+        ArrayList<String> tabs2 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs2.get(2));
+
+        ubbcluj.entersName("\n");
+
+        ubbcluj.containsNoErrorMessage();
     }
-} 
+
+    @Test
+    public void valid_input_form_returns_no_error_message() {
+        ubbcluj.is_the_home_page();
+        ubbcluj.presses_on("Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii prin stagii de practică de calitate");
+
+        ArrayList<String> tabs1 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs1.get(1));
+
+        ubbcluj.presses_on("Formular de inscriere la concursul pe teme profesionale");
+
+        ArrayList<String> tabs2 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs2.get(2));
+
+        ubbcluj.entersName("Panda\n");
+        ubbcluj.containsNoErrorMessage();
+    }
+
+    @Test
+    public void link_opens_another_tab_correctly() {
+        ubbcluj.is_the_home_page();
+        ubbcluj.presses_on("Îmbunătăţirea potenţialului de absorbţie pe piaţa muncii prin stagii de practică de calitate");
+
+        ArrayList<String> tabs1 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs1.get(1));
+
+        ubbcluj.presses_on("Formular de inscriere la concursul pe teme profesionale");
+
+        ArrayList<String> tabs2 = new ArrayList<>(webdriver.getWindowHandles());
+        webdriver.switchTo().window(tabs2.get(2));
+
+        ubbcluj.should_see_text("Formular de inscriere la concursul pe teme profesionale");
+    }
+}

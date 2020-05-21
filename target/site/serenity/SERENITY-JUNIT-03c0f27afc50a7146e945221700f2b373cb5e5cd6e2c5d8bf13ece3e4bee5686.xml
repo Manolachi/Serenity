@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="net.serenity.bdd.features.search.SearchByKeywordStory" skipped="0" tests="1" time="19.04" timestamp="2020-05-22T00:36:21.653549400+03:00[Europe/Athens]"><testcase classname="net.serenity.bdd.features.search.SearchByKeywordStory" name="Valid input form returns no error message"/></testsuite>

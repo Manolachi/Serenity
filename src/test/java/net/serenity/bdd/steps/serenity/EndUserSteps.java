@@ -2,11 +2,9 @@ package net.serenity.bdd.steps.serenity;
 
 import net.serenity.bdd.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.steps.ScenarioSteps;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.Matchers.*;
 
 public class EndUserSteps {
 
@@ -23,8 +21,8 @@ public class EndUserSteps {
     }
 
     @Step
-    public void should_see_definition(String definition) {
-        assertThat(dictionaryPage.getDefinitions(), hasItem(containsString(definition)));
+    public void should_see_text(String definition, String expectedText) {
+        assertThat(dictionaryPage.getTextFromTable(definition), equalTo(expectedText));
     }
 
     @Step
@@ -35,6 +33,30 @@ public class EndUserSteps {
     @Step
     public void looks_for(String term) {
         enters(term);
-        starts_search();
+    }
+
+    public void presses_on(String link) {
+        dictionaryPage.clickOnLink(link);
+    }
+
+    public void should_see_link(String text) {
+        dictionaryPage.getLink(text);
+    }
+
+    public void entersName(String myName) {
+        dictionaryPage.enterName(myName);
+    }
+
+    public void containsErrorMessage() {
+        assertThat(dictionaryPage.tryFindElement(), equalTo(true));
+    }
+
+    public void containsNoErrorMessage() {
+        assertThat(dictionaryPage.tryFindElement(), equalTo(false));
+    }
+
+    public void should_see_text(String text) {
+        dictionaryPage.getText(text);
+
     }
 }

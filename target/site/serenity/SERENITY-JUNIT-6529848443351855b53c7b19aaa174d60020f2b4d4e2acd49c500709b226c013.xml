@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="net.serenity.bdd.features.search.SearchByKeywordStory" skipped="0" tests="1" time="50.08" timestamp="2020-05-21T21:08:29.708830400+03:00[Europe/Bucharest]"><testcase classname="net.serenity.bdd.features.search.SearchByKeywordStory" name="Searching by keyword banana should display the corresponding article"><error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error><system-err>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#13;
-net.serenity.bdd.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
-net.serenity.bdd.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:35)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
-java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="net.serenity.bdd.features.search.SearchByKeywordStory" skipped="0" tests="1" time="17.74" timestamp="2020-05-21T22:59:05.994766500+03:00[Europe/Athens]"><testcase classname="net.serenity.bdd.features.search.SearchByKeywordStory" name="Searching by keyword banana should display the corresponding article"/></testsuite>
