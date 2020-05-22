@@ -1,4 +1,7 @@
-net\serenity\bdd\pages\DictionaryPage.class
-net\serenity\bdd\features\search\package-info.class
-net\serenity\bdd\features\search\SearchByKeywordStory.class
+net\serenity\bdd\features\function_testing\SearchByKeyword.class
+net\serenity\bdd\features\function_testing\FillInTheForm.class
+net\serenity\bdd\features\scenario_based_testing\ScenarioBasedTestClass.class
+net\serenity\bdd\pages\UBBPage.class
+net\serenity\bdd\features\function_testing\CheckCurrentYearStructureDates.class
+net\serenity\bdd\features\function_testing\OpenNewTab.class
 net\serenity\bdd\steps\serenity\EndUserSteps.class

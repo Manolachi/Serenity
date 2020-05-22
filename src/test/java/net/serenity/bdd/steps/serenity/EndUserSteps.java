@@ -1,33 +1,27 @@
 package net.serenity.bdd.steps.serenity;
 
-import net.serenity.bdd.pages.DictionaryPage;
+import net.serenity.bdd.pages.UBBPage;
 import net.thucydides.core.annotations.Step;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class EndUserSteps {
 
-    DictionaryPage dictionaryPage;
+    private UBBPage ubbPage;
 
     @Step
-    public void enters(String keyword) {
-        dictionaryPage.enter_keywords(keyword);
+    private void enters(String keyword) {
+        ubbPage.enter_keywords(keyword);
     }
 
     @Step
-    public void starts_search() {
-        dictionaryPage.lookup_terms();
-    }
-
-    @Step
-    public void should_see_text(String definition, String expectedText) {
-        assertThat(dictionaryPage.getTextFromTable(definition), equalTo(expectedText));
+    public void should_see_date_for_period_in_table(String date, String period) {
+        assertThat(ubbPage.getTextFromTable(period), equalTo(date));
     }
 
     @Step
     public void is_the_home_page() {
-        dictionaryPage.open();
+        ubbPage.open();
     }
 
     @Step
@@ -36,27 +30,26 @@ public class EndUserSteps {
     }
 
     public void presses_on(String link) {
-        dictionaryPage.clickOnLink(link);
+        ubbPage.clickOnLink(link);
     }
 
-    public void should_see_link(String text) {
-        dictionaryPage.getLink(text);
+    public void should_see_text_in_tag(String text, String tagName) {
+        assertThat(ubbPage.getFullTextByTagName(text, tagName), containsString(text));
+    }
+
+    public void should_see_url(String actualURL, String expectedURL) {
+        assertThat(actualURL, containsString(expectedURL));
     }
 
     public void entersName(String myName) {
-        dictionaryPage.enterName(myName);
+        ubbPage.enterName(myName);
     }
 
-    public void containsErrorMessage() {
-        assertThat(dictionaryPage.tryFindElement(), equalTo(true));
+    public void should_contains_error_message() {
+        assertThat(ubbPage.tryFindElement(), equalTo(false));
     }
 
-    public void containsNoErrorMessage() {
-        assertThat(dictionaryPage.tryFindElement(), equalTo(false));
-    }
-
-    public void should_see_text(String text) {
-        dictionaryPage.getText(text);
-
+    public void should_contains_no_error_message() {
+        assertThat(ubbPage.tryFindElement(), equalTo(false));
     }
 }
